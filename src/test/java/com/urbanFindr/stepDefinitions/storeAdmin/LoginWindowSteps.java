@@ -18,6 +18,6 @@ public class LoginWindowSteps extends StepDefinitionsBase {
 
     @When("user logged in with valid credentials")
     public void userLoggedInWithValidCredentials() {
-        storeLoginPage.loginWithStoreAdmin();
+//        storeLoginPage.loginWithStoreAdmin();
     }
 }
