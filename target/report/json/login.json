@@ -1,0 +1,214 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-05T04:51:40.537Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2184655700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.urbanFindr.stepDefinitions.Hooks.setUpScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "checking Menu page",
+        "description": "",
+        "id": "store-admin;checking-menu-page",
+        "after": [
+          {
+            "result": {
+              "duration": 643396700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.urbanFindr.stepDefinitions.Hooks.tearDownScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3243894800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is present on \"store Admin\" site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"store Admin\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.urbanFindr.stepDefinitions.CommonSteps.userIsPresentOnSite(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15999300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user logged in with valid credentials",
+            "match": {
+              "location": "com.urbanFindr.stepDefinitions.storeAdmin.LoginWindowSteps.userLoggedInWithValidCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8000300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User will see menu page",
+            "match": {
+              "location": "com.urbanFindr.stepDefinitions.storeAdmin.HomeWindowSteps.userWillSeeMenuPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@storeAdmin"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-05T04:51:46.648Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1224040400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.urbanFindr.stepDefinitions.Hooks.setUpScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "verify fm admin login",
+        "description": "",
+        "id": "store-admin;verify-fm-admin-login",
+        "after": [
+          {
+            "result": {
+              "duration": 664846100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.urbanFindr.stepDefinitions.Hooks.tearDownScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4754265300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User go to \"fm admin\" site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fm admin\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.urbanFindr.stepDefinitions.CommonSteps.userGoToSite(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@storeAdmin"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-05T04:51:53.291Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1227431000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.urbanFindr.stepDefinitions.Hooks.setUpScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "verify customer page",
+        "description": "",
+        "id": "store-admin;verify-customer-page",
+        "after": [
+          {
+            "result": {
+              "duration": 664902400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.urbanFindr.stepDefinitions.Hooks.tearDownScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5245740000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User go to \"customer\" site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"customer\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.urbanFindr.stepDefinitions.CommonSteps.userGoToSite(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@storeAdmin"
+          }
+        ]
+      }
+    ],
+    "name": "Store Admin",
+    "description": "",
+    "id": "store-admin",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/urbanFindr/features/StoreAdmin.feature",
+    "tags": [
+      {
+        "name": "@storeAdmin",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
