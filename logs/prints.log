@@ -1,1 +1,2 @@
-10:21:54.519 [main] DEBUG com.urbanFindr.commons.driver.listeners.LoggerEventListener - Navigating to: https://theurbanfindr.com/
+10:51:29.838 [main] INFO  com.urbanFindr.stepDefinitions.CommonSteps - Initialised
+10:51:29.846 [main] DEBUG com.urbanFindr.commons.driver.listeners.LoggerEventListener - Navigating to: https://theurbanfindr.com/

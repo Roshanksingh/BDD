@@ -40,7 +40,8 @@ public class WebDriverManager {
                 driver = createIeDriver();
                 break;
             default:
-                System.setProperty("webdriver.chrome.driver", getPathToWebDriver());
+                System.getProperty("webdriver.chrome.driver");
+//                System.setProperty("webdriver.chrome.driver", getPathToWebDriver());
                 driver = createChromeDriver();
                 break;
         }
@@ -78,7 +79,8 @@ public class WebDriverManager {
             case MACOS:
                 pathToDriver = new Resource().getPathToFile("/resources/drivers/macos/chromedriver");
             default:
-                pathToDriver = System.getProperty("user.dir") + "//src//test//resources//drivers//windows//chromedriver.exe";
+                pathToDriver = new Resource().getPathToFile("/resources/drivers/windows/chromedriver.exe");
+//                pathToDriver = System.getProperty("user.dir") + "//src//test//resources//drivers//windows//chromedriver.exe";
                 break;
         }
         return pathToDriver;

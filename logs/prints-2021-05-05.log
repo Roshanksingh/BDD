@@ -1,6 +1,6 @@
-10:21:54.519 [main] DEBUG com.urbanFindr.helper.JavaScriptHelper - JavaScriptHelper : 1017997535
-10:21:54.519 [main] DEBUG com.urbanFindr.helper.JavaScriptHelper - JavaScriptHelper : 1017997535
-10:21:54.519 [main] DEBUG com.urbanFindr.helper.GenericHelper - GenericHelper : 345607713
-10:21:54.519 [main] DEBUG com.urbanFindr.helper.JavaScriptHelper - JavaScriptHelper : 345607713
-10:21:54.519 [main] DEBUG com.urbanFindr.helper.JavaScriptHelper - JavaScriptHelper : 345607713
-10:21:54.519 [main] INFO  com.urbanFindr.stepDefinitions.CommonSteps - Initialised
+10:51:28.431 [main] INFO  com.urbanFindr.commons.driver.ScenarioContext - Initializing scenario
+10:51:29.838 [main] DEBUG com.urbanFindr.helper.JavaScriptHelper - JavaScriptHelper : 1843853990
+10:51:29.838 [main] DEBUG com.urbanFindr.helper.JavaScriptHelper - JavaScriptHelper : 1843853990
+10:51:29.838 [main] DEBUG com.urbanFindr.helper.GenericHelper - GenericHelper : 1017997535
+10:51:29.838 [main] DEBUG com.urbanFindr.helper.JavaScriptHelper - JavaScriptHelper : 1017997535
+10:51:29.838 [main] DEBUG com.urbanFindr.helper.JavaScriptHelper - JavaScriptHelper : 1017997535
